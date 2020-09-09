@@ -18,3 +18,5 @@ run:
 %.o:%.cc
 	$(CXX) -c $< -c $@
 
+clean:
+	rm *.o
